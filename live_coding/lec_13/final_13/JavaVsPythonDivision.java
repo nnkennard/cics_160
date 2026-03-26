@@ -20,11 +20,11 @@ public class JavaVsPythonDivision {
          * Predict what the commented-out line below will print to System.out.
          * Record your prediction, then check it.
          * 
-         * >>> 1 <<<
+         * >>> your prediction here <<<
          * 
          */
 
-        System.out.println(15 / 8);
+        // System.out.println(15 / 8);
 
         /*
          * = Q3 ================================================================
@@ -32,8 +32,7 @@ public class JavaVsPythonDivision {
          * quotient you get when dividing 15 by 8.
          */
 
-        System.out.println((float) 15 / 8);
-        System.out.println((float) (15 / 8));
+        // System.out.println(>>> your expression here <<<);
 
     }
 

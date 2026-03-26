@@ -22,15 +22,11 @@ public class JavaVsPythonPlus {
          * Predict what the commented-out line below will print to System.out.
          * Record your prediction, then check it.
          * 
-         * >>> The sum of 5 and 10 is: 510 <<<
+         * >>> your prediction here <<<
          * 
          */
 
-        System.out.println("The sum of 5 and 10 is: " + 5 + 10);
-
-        /*
-        "The sum of 5 and 10 is: 510"
-        */
+        // System.out.println("The sum of 5 and 10 is: " + 5 + 10);
 
         /*
          * = Q3 ================================================================
@@ -42,8 +38,8 @@ public class JavaVsPythonPlus {
          * 
          */
 
-        System.out.println(5 + 10 + " is the sum of 5 and 10.");
-        System.out.println("The sum of 5 and 10 is: " + (5 + 10));
+        // System.out.println(5 + 10 + " is the sum of 5 and 10.");
+        // System.out.println("The sum of 5 and 10 is: " + (5 + 10));
 
     }
 
