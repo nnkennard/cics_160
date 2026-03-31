@@ -9,6 +9,12 @@ public class ForEach {
          * integers, one per line.
          */
 
+        int[] numbers = {1,2,6,3};
+
+        for (int i: numbers) {
+            System.out.println(i* i);
+        }
+
         // Your code here
 
         /*
@@ -19,7 +25,16 @@ public class ForEach {
          * one by one.
          */
 
-        // Your code here
+        Cat [] kennard_house = new Cat[2];
+        Cat mo = new Cat("Mo", "hi mom");
+        Cat ru = new Cat("Ru", "bye mom");
+
+        kennard_house[0] = mo;
+        kennard_house[1] = ru;
+
+        for(Cat c : kennard_house){
+            c.speak();
+        }
 
         /*
          * = Q3 ================================================================

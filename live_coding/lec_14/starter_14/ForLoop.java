@@ -12,9 +12,13 @@ public class ForLoop {
          * 
          */
 
-        // Your code here
+        int factorial = 1;
 
-        return -1;
+        for (int i = 1; i<=a; i++){
+            factorial *= i;
+        }
+
+        return factorial;
 
     }
 
@@ -28,6 +32,10 @@ public class ForLoop {
          */
 
         // Your code here
+
+        for(char x='Z'; x >= 'A'; x--) {
+            System.out.print(x+" ");
+        }
 
     }
 
@@ -56,9 +64,9 @@ public class ForLoop {
          * 
          */
 
-        // char c = 'A';
-        // System.out.println(c + " " + ++c);
-        // reverseAlphabet();
+        char c = 'A';
+        System.out.println(c + " " + ++c);
+        reverseAlphabet();
 
     }
 }
