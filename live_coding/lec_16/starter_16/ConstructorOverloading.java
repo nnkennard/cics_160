@@ -28,6 +28,21 @@ class Cat {
     String name;
     int birthYear; // int is a terrible choice for a year!
 
+    public Cat(String name, int year){
+        this.name = name;
+        this.birthYear = year;
+    }
+
+    public Cat(String name){
+        this.name = name;
+        this.birthYear = 2026;
+    }
+
+    public Cat(){
+        this.name = "Jane Doe";
+        this.birthYear = 2026;
+    }
+
     public void speak() {
         System.out.println(name + ", born " + birthYear);
     }

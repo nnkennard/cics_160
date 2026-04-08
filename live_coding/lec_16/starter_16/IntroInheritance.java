@@ -6,7 +6,7 @@ public class IntroInheritance {
         /*
          * = Q1 ================================================================
          * 
-         * Add another constructor to Person. Ensure that the super keyword can
+         * Add another constructor to Student. Ensure that the super keyword can
          * be used with all overloaded constructors, just using different
          * parameters.
          * 
@@ -22,6 +22,11 @@ public class IntroInheritance {
 
 class Person {
 
+    // private String name;
+    /*
+     * Note: if the attribute declaration above is used instead, it leads to an error in
+     * Student because name will not be visible to subclasses.
+     */
     String name;
 
     public Person(String n) {
@@ -40,6 +45,11 @@ class Student extends Person {
 
     public Student(String n, String m) {
         super(n);
+        major = m;
+    }
+
+    public Student(String m) {
+        super("John Doe");
         major = m;
     }
 
